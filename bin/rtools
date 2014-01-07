@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+
+var program = require("commander"),
+	versionizer = require("../lib/versionizer");
+
+program
+	.command("versionize")
+	.description("give every static resources of html page a version")
+	.usage("[input] [output] \n\n " +
+		"Take [input] file, make a [ouput] file. " +
+		"take *.html into /output/*.html if no [input] and [ouput].")
+	.action(function(input, output) {
+		//actually take no args
+		if (input._execs) {
+			versionizer.convertAll();
+		} else {
+			versionizer.convertOne(input, output);
+		}
+	});
+
+program.version("0.0.1").parse(process.argv);
+
+if (!program.args.length) {
+	program.help();
+}
