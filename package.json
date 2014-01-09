@@ -33,7 +33,8 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.2",
     "commander": "~2.1.0",
-    "cheerio": "~0.13.0"
+    "cheerio": "~0.13.0",
+    "rsvp": "~3.0.3"
   },
   "keywords": [],
   "preferGlobal": true,
