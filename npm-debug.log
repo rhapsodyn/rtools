@@ -1,0 +1,273 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink D:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\tassadarliu\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\TASSAD~1\\AppData\\Local\\Temp\\npm-3312-5BjCdRsO\\1389325927073-0.39392523537389934\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\tassadarliu\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+17 verbose lock tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz C:\Users\tassadarliu\AppData\Roaming\npm-cache\91678c83-7073-0-39392523537389934-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+21 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+22 verbose tar unpack C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+23 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+24 verbose lock tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package C:\Users\tassadarliu\AppData\Roaming\npm-cache\4b5d7328-7073-0-39392523537389934-package.lock
+25 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+26 verbose lock tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz C:\Users\tassadarliu\AppData\Roaming\npm-cache\91678c83-7073-0-39392523537389934-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry Gruntfile.js
+35 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry lib/versionizer.js
+37 silly gunzTarPerm modified mode [ 'lib/versionizer.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry .gitattributes
+39 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+40 silly gunzTarPerm extractEntry .jshintrc
+41 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+42 silly gunzTarPerm extractEntry LICENSE-MIT
+43 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+44 silly gunzTarPerm extractEntry .travis.yml
+45 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+46 silly gunzTarPerm extractEntry bin/rtools
+47 silly gunzTarPerm modified mode [ 'bin/rtools', 438, 420 ]
+48 silly gunzTarPerm extractEntry test/versionizer_test.js
+49 silly gunzTarPerm modified mode [ 'test/versionizer_test.js', 438, 420 ]
+50 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+51 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+52 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+53 silly lockFile 91678c83-7073-0-39392523537389934-tmp-tgz tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\tmp.tgz
+54 verbose tar pack [ 'C:\\Users\\tassadarliu\\AppData\\Roaming\\npm-cache\\rtools\\0.1.1\\package.tgz',
+54 verbose tar pack   'C:\\Users\\TASSAD~1\\AppData\\Local\\Temp\\npm-3312-5BjCdRsO\\1389325927073-0.39392523537389934\\package' ]
+55 verbose tarball C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+56 verbose folder C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+57 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+58 verbose lock tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package C:\Users\tassadarliu\AppData\Roaming\npm-cache\4b5d7328-7073-0-39392523537389934-package.lock
+59 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+60 verbose lock tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz C:\Users\tassadarliu\AppData\Roaming\npm-cache\8137f28a-m-cache-rtools-0-1-1-package-tgz.lock
+61 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+62 silly lockFile 4b5d7328-7073-0-39392523537389934-package tar://C:\Users\TASSAD~1\AppData\Local\Temp\npm-3312-5BjCdRsO\1389325927073-0.39392523537389934\package
+63 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+64 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+65 silly lockFile 61120745-g-npm-cache-rtools-0-1-1-package C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+66 verbose lock C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package C:\Users\tassadarliu\AppData\Roaming\npm-cache\61120745-g-npm-cache-rtools-0-1-1-package.lock
+67 silly lockFile 61120745-g-npm-cache-rtools-0-1-1-package C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+68 silly lockFile 61120745-g-npm-cache-rtools-0-1-1-package C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+69 verbose tar unpack C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+70 silly lockFile b2667876-g-npm-cache-rtools-0-1-1-package tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+71 verbose lock tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package C:\Users\tassadarliu\AppData\Roaming\npm-cache\b2667876-g-npm-cache-rtools-0-1-1-package.lock
+72 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+73 verbose lock tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz C:\Users\tassadarliu\AppData\Roaming\npm-cache\8137f28a-m-cache-rtools-0-1-1-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+77 silly gunzTarPerm extractEntry .npmignore
+78 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+81 silly gunzTarPerm extractEntry Gruntfile.js
+82 silly gunzTarPerm modified mode [ 'Gruntfile.js', 438, 420 ]
+83 silly gunzTarPerm extractEntry bin/rtools
+84 silly gunzTarPerm modified mode [ 'bin/rtools', 438, 420 ]
+85 silly gunzTarPerm extractEntry .jshintrc
+86 silly gunzTarPerm modified mode [ '.jshintrc', 438, 420 ]
+87 silly gunzTarPerm extractEntry lib/versionizer.js
+88 silly gunzTarPerm modified mode [ 'lib/versionizer.js', 438, 420 ]
+89 silly gunzTarPerm extractEntry LICENSE-MIT
+90 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+91 silly gunzTarPerm extractEntry .gitattributes
+92 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+93 silly gunzTarPerm extractEntry .travis.yml
+94 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+95 silly gunzTarPerm extractEntry test/versionizer_test.js
+96 silly gunzTarPerm modified mode [ 'test/versionizer_test.js', 438, 420 ]
+97 silly lockFile b2667876-g-npm-cache-rtools-0-1-1-package tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+98 silly lockFile b2667876-g-npm-cache-rtools-0-1-1-package tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package
+99 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+100 silly lockFile 8137f28a-m-cache-rtools-0-1-1-package-tgz tar://C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+101 verbose chmod C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz 644
+102 silly chown skipping for windows C:\Users\tassadarliu\AppData\Roaming\npm-cache\rtools\0.1.1\package.tgz
+103 silly lockFile 3a52ce78- .
+104 silly lockFile 3a52ce78- .
+105 silly publish { name: 'rtools',
+105 silly publish   description: 'rhapsodyn\'s tool set',
+105 silly publish   version: '0.1.1',
+105 silly publish   homepage: 'https://github.com/rhapsodyn/rtools',
+105 silly publish   author: { name: 'rhapsodyn', email: 'rhapsodyn@gmail.com' },
+105 silly publish   repository: { type: 'git', url: 'https://github.com/rhapsodyn/rtools.git' },
+105 silly publish   bugs: { url: 'https://github.com/rhapsodyn/rtools/issues' },
+105 silly publish   licenses:
+105 silly publish    [ { type: 'MIT',
+105 silly publish        url: 'https://github.com/rhapsodyn/rtools/blob/master/LICENSE-MIT' } ],
+105 silly publish   main: 'bin/rtools',
+105 silly publish   engines: { node: '>= 0.8.0' },
+105 silly publish   scripts: { test: 'grunt nodeunit' },
+105 silly publish   devDependencies:
+105 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+105 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+105 silly publish      'grunt-contrib-watch': '~0.5.3',
+105 silly publish      grunt: '~0.4.2',
+105 silly publish      commander: '~2.1.0',
+105 silly publish      cheerio: '~0.13.0',
+105 silly publish      rsvp: '~3.0.3' },
+105 silly publish   dependencies: { commander: '~2.1.0', cheerio: '~0.13.0', rsvp: '~3.0.3' },
+105 silly publish   keywords: [],
+105 silly publish   preferGlobal: true,
+105 silly publish   bin: { rtools: 'bin/rtools' },
+105 silly publish   readme: '# rtools [![Build Status](https://secure.travis-ci.org/rhapsodyn/rtools.png?branch=master)](http://travis-ci.org/rhapsodyn/rtools)\r\n\r\nrhapsodyn\'s tool set\r\n\r\n## Install\r\n\r\n`npm install -g rtools`\r\n\r\n## Versionize\r\n\r\nGive every static resources (js/css) in your html file a version.\r\n\r\nSee `rtools versionize --help`\r\n\r\n## License\r\nCopyright (c) 2014 rhapsodyn  \r\nLicensed under the MIT license.\r\n',
+105 silly publish   readmeFilename: 'README.md',
+105 silly publish   _id: 'rtools@0.1.1',
+105 silly publish   dist: { shasum: '0a0ddcd5026a7ee56929980d8a02f966bc3dfb3c' },
+105 silly publish   _from: '.' }
+106 verbose url raw rtools
+107 verbose url resolving [ 'http://registry.npmjs.org/', './rtools' ]
+108 verbose url resolved http://registry.npmjs.org/rtools
+109 info trying registry request attempt 1 at 11:52:07
+110 http PUT http://registry.npmjs.org/rtools
+111 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+112 info trying registry request attempt 2 at 11:52:38
+113 http PUT http://registry.npmjs.org/rtools
+114 http 409 http://registry.npmjs.org/rtools
+115 verbose url raw rtools
+116 verbose url resolving [ 'http://registry.npmjs.org/', './rtools' ]
+117 verbose url resolved http://registry.npmjs.org/rtools
+118 info trying registry request attempt 1 at 11:52:38
+119 http GET http://registry.npmjs.org/rtools
+120 http 200 http://registry.npmjs.org/rtools
+121 verbose uploading [ 'rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2',
+121 verbose uploading   'C:\\Users\\tassadarliu\\AppData\\Roaming\\npm-cache\\rtools\\0.1.1\\package.tgz' ]
+122 verbose url raw rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+123 verbose url resolving [ 'http://registry.npmjs.org/',
+123 verbose url resolving   './rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2' ]
+124 verbose url resolved http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+125 info trying registry request attempt 1 at 11:53:14
+126 http PUT http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+127 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+128 info trying registry request attempt 2 at 11:53:45
+129 http PUT http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+130 http 503 http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+131 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+131 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+131 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+131 verbose bad json <html>
+131 verbose bad json   <head>
+131 verbose bad json     <title>503 client read error</title>
+131 verbose bad json   </head>
+131 verbose bad json   <body>
+131 verbose bad json     <h1>Error 503 client read error</h1>
+131 verbose bad json     <p>client read error</p>
+131 verbose bad json     <h3>Guru Meditation:</h3>
+131 verbose bad json     <p>XID: 3056804500</p>
+131 verbose bad json     <hr>
+131 verbose bad json     <p>Varnish cache server</p>
+131 verbose bad json   </body>
+131 verbose bad json </html>
+132 error registry error parsing json
+133 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+133 info retry
+133 info retry <?xml version="1.0" encoding="utf-8"?>
+133 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+133 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+133 info retry <html>
+133 info retry   <head>
+133 info retry     <title>503 client read error</title>
+133 info retry   </head>
+133 info retry   <body>
+133 info retry     <h1>Error 503 client read error</h1>
+133 info retry     <p>client read error</p>
+133 info retry     <h3>Guru Meditation:</h3>
+133 info retry     <p>XID: 3056804500</p>
+133 info retry     <hr>
+133 info retry     <p>Varnish cache server</p>
+133 info retry   </body>
+133 info retry </html>
+134 info trying registry request attempt 3 at 11:55:39
+135 http PUT http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+136 http 503 http://registry.npmjs.org/rtools/-/rtools-0.1.1.tgz/-rev/3-367de851a0136d7d46242e72476461f2
+137 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+137 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+137 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+137 verbose bad json <html>
+137 verbose bad json   <head>
+137 verbose bad json     <title>503 client read error</title>
+137 verbose bad json   </head>
+137 verbose bad json   <body>
+137 verbose bad json     <h1>Error 503 client read error</h1>
+137 verbose bad json     <p>client read error</p>
+137 verbose bad json     <h3>Guru Meditation:</h3>
+137 verbose bad json     <p>XID: 3057020769</p>
+137 verbose bad json     <hr>
+137 verbose bad json     <p>Varnish cache server</p>
+137 verbose bad json   </body>
+137 verbose bad json </html>
+138 error registry error parsing json
+139 error publish Error uploading package
+140 error SyntaxError: Unexpected token <
+140 error
+140 error <?xml version="1.0" encoding="utf-8"?>
+140 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+140 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+140 error <html>
+140 error   <head>
+140 error     <title>503 client read error</title>
+140 error   </head>
+140 error   <body>
+140 error     <h1>Error 503 client read error</h1>
+140 error     <p>client read error</p>
+140 error     <h3>Guru Meditation:</h3>
+140 error     <p>XID: 3057020769</p>
+140 error     <hr>
+140 error     <p>Varnish cache server</p>
+140 error   </body>
+140 error </html>
+140 error
+140 error     at Object.parse (native)
+140 error     at RegClient.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:238:23)
+140 error     at Request.self.callback (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:129:22)
+140 error     at Request.EventEmitter.emit (events.js:98:17)
+140 error     at Request.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:873:14)
+140 error     at Request.EventEmitter.emit (events.js:117:20)
+140 error     at IncomingMessage.<anonymous> (D:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:824:12)
+140 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+140 error     at _stream_readable.js:920:16
+140 error     at process._tickCallback (node.js:415:13)
+141 error If you need help, you may report this log at:
+141 error     <http://github.com/isaacs/npm/issues>
+141 error or email it to:
+141 error     <npm-@googlegroups.com>
+142 error System Windows_NT 6.1.7600
+143 error command "D:\\Program Files\\nodejs\\\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+144 error cwd C:\Users\tassadarliu\Documents\GitHub\rtools
+145 error node -v v0.10.21
+146 error npm -v 1.3.11
+147 error type unexpected_token
+148 verbose exit [ 1, true ]
